@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:text="電腦選號"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btndown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上一筆"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下一筆"/>
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="儲存這筆" />
+
+        <Button
+        android:layout_weight="1"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="電腦選號"/>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#449955"
+            android:text="以下是以儲存號碼"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtsave"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="儲存選號"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnopen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="對獎"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnopenNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="開獎"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lbltext"/>
+    </LinearLayout>
+    </LinearLayout>
+
+
